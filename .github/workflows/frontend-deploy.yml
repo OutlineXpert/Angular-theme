@@ -43,11 +43,11 @@ jobs:
       - name: Build docker image
         run: |
           docker build -t ang-frontend .
-          docker tag ang-frontend:latest ${{ secrets.ECR_REPOSITORY }}:latest
+          docker tag ang-frontend:latest ${{ secrets.ECR_REPOSITORY_FRONTEND }}:latest
 
       - name: push to ecr
         run: |
-          docker push ${{ secrets.ECR_REPOSITORY }}:latest
+          docker push ${{ secrets.ECR_REPOSITORY_FRONTEND }}:latest
 
 
   
