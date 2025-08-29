@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
           <div>
             Analytics Dashboard
             <div class="page-title-subheading">
-              Welcome to ArchitectUI Angular Theme - Successfully Running on Angular 20!
+              Welcome to ArchitectUI Angular Theme - !
             </div>
           </div>
         </div>
