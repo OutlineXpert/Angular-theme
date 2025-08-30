@@ -1,0 +1,91 @@
+########################################
+# 🔧 Node.js / Angular
+########################################
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Angular cache and temp
+.angular/
+.cache/
+tmp/
+temp/
+
+# Angular environment files
+src/environments/
+*.env
+*.env.local
+*.env.*.local
+
+########################################
+# 🐍 Python / Django
+########################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Django static/media
+staticfiles/
+media/
+static/
+public/
+
+# Django environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+########################################
+# 🧪 Testing & Coverage
+########################################
+coverage/
+*.lcov
+*.nyc_output
+*.spec.ts
+*.test.js
+*.test.ts
+*.pytest_cache/
+junit.xml
+
+########################################
+# 🧱 Build & CI/CD Artifacts
+########################################
+Dockerfile*
+.dockerignore
+*.tar
+*.gz
+*.zip
+*.tgz
+*.bak
+*.swp
+*.swo
+
+# CI/CD configs
+.github/
+.gitlab/
+.circleci/
+.vscode/
+.idea/
+
+########################################
+# 🗃️ OS & Editor Junk
+########################################
+.DS_Store
+Thumbs.db
+*.iml
+*.sublime*
+*.log
+*.tmp
+
+########################################
+# 🧬 Git
+########################################
+.git/
+.gitignore
